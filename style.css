@@ -90,34 +90,37 @@ body {
     top: 115px;
   }
   /* 4 */
+  /* Do not need to put px in when using 0 */
   #soul{
     position: absolute;
-    bottom: 0px;
-    right: 0px;
+    bottom: 0;
+    right: 0;
   }
   /* 5 */
   #reality{
     position: absolute;
     bottom: 150px;
-    right: 0px;
+    right: 0;
   }
   /* 6 */
   #mind{
     position: fixed;
-    right: 0px;
+    right: 0;
   }
   /* 7 */
   #time{
     position: fixed;
-    top: 0px;
-    right: 0px;
+    top: 0;
+    right: 0;
   }
   /* 8 */
   h1{
     position: sticky;
-    top: 0px;
+    top: 0;
     /* 9 */
     z-index: 2;
+    /* OR */
+    /* #power, #space{ z-index: -1;} */
   }
   /* BONUS */
   #reality{
